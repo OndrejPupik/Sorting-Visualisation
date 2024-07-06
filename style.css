@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+div {
+    display: flex;
+    flex: 1;
+}
+
+#vnejsi {
+    padding: 0px;
+    height: 90px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: rgb(0, 153, 255);
+    font-weight: bolder;
+}
+
+#leva {
+    padding: 20px;
+    padding-right: 0;
+}
+
+#stred {
+    height: 100%;
+    padding-inline: 10px;
+}
+
+.typ_algo {
+    padding-inline: 20px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.typ_algo:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+
+.typ_algo:active {
+    background-color: white;
+    color: rgb(0, 153, 255);
+}
+
+#prava {
+    padding: 20px;
+    justify-content: flex-end;
+    padding-left: 0;
+}
+
+#meritko_hodnota {
+    margin-left: 10px;
+}
+
+#tlacitko {
+    position: fixed;
+    bottom: 20px;
+    cursor: pointer;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: red;
+    color: white;
+    border: 3px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 30px;
+}
+
+#tlacitko:hover {
+    background-color: rgba(255, 0, 0, 0.7);
+}
+
+#tlacitko:active {
+    background-color: rgba(255, 0, 0, 0.6);
+
+}
